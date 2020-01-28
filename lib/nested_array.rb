@@ -16,24 +16,25 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-produce_isle = {
-  
-  CONVENTIONAL_PRODUCE => [
+
+produce_isle = 
+[
+  CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
-  "Eggplant"
+  "Eggplant",
 ],
 
-  ORGANIC_PRODUCE => [
+  ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
   "Grapes",
   "Avocadoes",
-  "Asparagus"
+  "Asparagus",
 ]
-}
+]
 end
 # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
@@ -44,27 +45,7 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  
-  produce_isle = {
-  
-  CONVENTIONAL_PRODUCE => [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-],
-
-  ORGANIC_PRODUCE => [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-}
 end
-
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
