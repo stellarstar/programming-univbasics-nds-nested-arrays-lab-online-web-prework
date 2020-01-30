@@ -25,11 +25,11 @@ produce_isle =
 end
 
 def sorted_matrix
- [
+[
   produce_isle =
   CONVENTIONAL_PRODUCE.sort,
   ORGANIC_PRODUCE.sort
-  ]
+]
 end
 
 def assembled_matrix
@@ -38,9 +38,8 @@ def assembled_matrix
   
 end
 
-def matrix_lookup
-  expect(matrix_lookup(assembled_matrix, 1, 1))
-  expect(matrix_lookup(sorted_matrix, 1, 1))
+def matrix_lookup (matrix, row, column)
+  
 end
 
 def matrix_update 
