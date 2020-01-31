@@ -39,7 +39,7 @@ def assembled_matrix
 end
 
 def matrix_lookup (matrix, row, column)
-  matrix_lookup(assembled_matrix, 1, 1)
+  matrix [1][1]
 end
 
 def matrix_update
