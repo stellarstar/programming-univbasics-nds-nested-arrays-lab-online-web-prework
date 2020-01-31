@@ -42,6 +42,8 @@ def matrix_lookup (matrix, row, column)
   matrix [1][1]
 end
 
-def matrix_update
- 
+def matrix_update (matrix, row, column, new_value)
+    matrix = assembled_matrix.dup
+    result = matrix_update(matrix, 0, 2, "Lemons")
 end
+
