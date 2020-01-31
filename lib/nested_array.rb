@@ -39,13 +39,9 @@ def assembled_matrix
 end
 
 def matrix_lookup (matrix, row, column)
-  
+  matrix_lookup(assembled_matrix, 1, 1)
 end
 
-def matrix_update 
- local_copy_of_matrix = assembled_matrix.dup
-      result = matrix_update(local_copy_of_matrix, 0, 2)
-      expect(result[0])
-      result = matrix_update
-      expect(result[0])
+def matrix_update
+ 
 end
